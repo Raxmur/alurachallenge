@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik+Mono+One&display=swap');
+
+main{
+    background-color: #041c35;
+}
+
+header {
+    padding: 30px;
+    background-color: #868c96;
+}
+
+.cabecera {
+    width: 1200px;
+    position: relative;
+    margin:auto;
+}
+
+.cabecera p {
+    position: absolute;
+    top: 70px;
+    right: 50px;
+    font-size: 50px;
+}
+
+.texto-general {
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 4px 4px 4px #103f7c;
+}
+
+
+.area-principal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.area-botones {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.area-botones ul li{
+    display: inline-block;
+    width: 25%;
+    margin: 0 2% 5% 2%;
+}
+
+.encriptar, .desencriptar, .copiar {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #f3f5fc;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.encriptar:hover, .desencriptar:hover, .copiar:hover {
+    background-color: #ccc;
+    transform: scale(1.2);
+}
+
+.texto {
+    font-size: 20px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.area1, .area2 {
+    resize: none;
+    background-color: #f3f5fc;
+    color: #868c96;
+    margin: 5% 2%;
+    height: 500px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.area1 {
+    width: 600px;
+}
+
+.area2 {
+    width: 190px;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #868c96;
+}
