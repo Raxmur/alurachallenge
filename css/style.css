@@ -89,3 +89,38 @@ footer {
     padding: 20px;
     background-color: #868c96;
 }
+
+@media screen and (max-width: 768px) {
+    .cabecera {
+        width: 100%;
+    }
+
+    .cabecera p {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .area-principal {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .area-botones {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .area-botones ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .area2, .area1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    footer img {
+        width: 100%;
+    }
+}
